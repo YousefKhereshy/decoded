@@ -9,7 +9,7 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
 <html className="dark" lang="en"><head>
 <meta charSet="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>TechPulse | Profile &amp; Saved Articles</title>
+<title>Decoded | Profile &amp; Saved Articles</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -48,7 +48,7 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
 <div className="size-8 bg-primary rounded-lg flex items-center justify-center">
 <span className="material-symbols-outlined text-background-dark font-bold">bolt</span>
 </div>
-<h2 className="text-xl font-bold leading-tight tracking-tight">TechPulse</h2>
+<h2 className="text-xl font-bold leading-tight tracking-tight">Decoded</h2>
 </div>
 <nav className="hidden md:flex items-center gap-8">
 <Link className="text-sm font-medium hover:text-primary transition-colors" to="/">Home</Link>
@@ -80,7 +80,7 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
 <h1 className="text-3xl md:text-4xl font-bold tracking-tight">Alex Rivera</h1>
 <span className="px-2 py-1 rounded bg-primary text-background-dark text-[10px] font-bold uppercase tracking-wider">Premium</span>
 </div>
-<p className="text-slate-500 dark:text-slate-400 text-lg mt-1">alex.rivera@techpulse.io</p>
+<p className="text-slate-500 dark:text-slate-400 text-lg mt-1">alex.rivera@Decoded.io</p>
 <div className="flex items-center gap-2 mt-2 text-sm text-slate-400">
 <span className="material-symbols-outlined text-sm">calendar_today</span>
 <span>Member since January 2022</span>
@@ -238,7 +238,7 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
 <div className="size-6 bg-primary rounded flex items-center justify-center">
 <span className="material-symbols-outlined text-[14px] text-background-dark font-bold">bolt</span>
 </div>
-<h2 className="text-lg font-bold tracking-tight">TechPulse</h2>
+<h2 className="text-lg font-bold tracking-tight">Decoded</h2>
 </div>
 <div className="flex gap-8 text-sm text-slate-500 dark:text-slate-400">
 <a className="hover:text-primary" href="#">About</a>
@@ -246,7 +246,7 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
 <a className="hover:text-primary" href="#">Terms</a>
 <a className="hover:text-primary" href="#">Contact</a>
 </div>
-<p className="text-sm text-slate-500">© 2024 TechPulse Media Inc.</p>
+<p className="text-sm text-slate-500">© 2024 Decoded Media Inc.</p>
 </div>
 </footer>
 </div>
@@ -254,3 +254,4 @@ export default function Screene01f57fc965046c7a80f13dbc264a16d() {
     </>
   );
 }
+

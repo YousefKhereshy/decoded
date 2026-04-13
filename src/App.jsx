@@ -4,12 +4,12 @@ import Scene from './assets/scene';
 import './App.css';
 import Blob from './assets/blob';
 import SignUp from './Pages/SignUp';
-import Screen1835ed16b3194c50868b39c79f58d3b5 from './Pages/LogIn';
-import Screenc1f2ee2581924ba2b6b92d33ebcd9eba from './Pages/Profile';
-import Screen0598d215209d4d85ae7ccc915e17312a from './Pages/Explore';
-import Screene01f57fc965046c7a80f13dbc264a16d from './Pages/SavedArticle';
-import Screenad1105aaa7ee4a6894207a67eff5b9bc from './Pages/ArticleDetail';
-import Screen25eb33c79eda4a25853488316fadbff7 from './Pages/ThisWeek';
+import LogIn from './Pages/LogIn';
+import Profile from './Pages/Profile';
+import Explore from './Pages/Explore';
+import SavedArticle from './Pages/SavedArticle';
+import ArticleDetail from './Pages/ArticleDetail';
+import ThisWeek from './Pages/ThisWeek';
 
 function Home() {
   return (
@@ -22,7 +22,7 @@ function Home() {
             <div className='text-primary'>
               <span className='material-symbols-outlined text-3xl'>bolt</span>
             </div>
-            <h1 className='text-2xl font-black tracking-tighter text-white uppercase'>TechPulse</h1>
+            <h1 className='text-2xl font-black tracking-tighter text-white uppercase'>Decoded</h1>
           </div>
           <div className='hidden md:flex flex-1 max-w-md'>
             <div className='relative w-full group'>
@@ -45,7 +45,7 @@ function Home() {
       <main className='w-full h-full px-6 lg:px-20'>
         <section className='py-16 lg:py-24 border-b border-white/5'>
           <div className='flex flex-col items-center text-center'>
-            <span className='text-primary font-mono tracking-widest text-sm uppercase mb-4'>Volume 42 • March 20-26, 2026</span>
+            <span className='text-primary font-mono tracking-widest text-sm uppercase mb-4'>Volume 42 � March 20-26, 2026</span>
             <h1 className='serif-text text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight'>This Week in Technology</h1>
             <div className='w-full max-w-xl mt-4'>
               <div className='flex p-1 bg-white/5 backdrop-blur-md shadow-xl rounded-full border border-white/10 focus-within:border-primary/50 focus-within:bg-white/10 transition-colors'>
@@ -157,7 +157,7 @@ function Home() {
             <div className='col-span-1 md:col-span-2'>
               <div className='flex items-center gap-2 mb-6'>
                 <span className='material-symbols-outlined text-primary text-3xl'>bolt</span>
-                <h2 className='text-2xl font-black tracking-tighter text-white uppercase'>TechPulse</h2>
+                <h2 className='text-2xl font-black tracking-tighter text-white uppercase'>Decoded</h2>
               </div>
               <p className='text-slate-400 max-w-sm mb-8 leading-relaxed'>Defining the technological landscape since 2018. Curated insights for the builders, dreamers, and early adopters of the future.</p>
               <div className='flex gap-4'>
@@ -186,7 +186,7 @@ function Home() {
             </div>
           </div>
           <div className='pt-12 mt-12 border-t border-white/5 text-center text-[10px] text-slate-500 uppercase tracking-widest'>
-            © 2026 TechPulse Media Group. All Rights Reserved. Built for the next era.
+            � 2026 Decoded Media Group. All Rights Reserved. Built for the next era.
           </div>
         </div>
       </footer>
@@ -199,12 +199,13 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
-      <Route path="/login" element={<Screen1835ed16b3194c50868b39c79f58d3b5 />} />
-      <Route path="/profile" element={<Screenc1f2ee2581924ba2b6b92d33ebcd9eba />} />
-      <Route path="/explore" element={<Screen0598d215209d4d85ae7ccc915e17312a />} />
-      <Route path="/saved" element={<Screene01f57fc965046c7a80f13dbc264a16d />} />
-      <Route path="/article/:id" element={<Screenad1105aaa7ee4a6894207a67eff5b9bc />} />
-      <Route path="/this-week" element={<Screen25eb33c79eda4a25853488316fadbff7 />} />
+      <Route path="/login" element={<LogIn />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/explore" element={<Explore />} />
+      <Route path="/saved" element={<SavedArticle />} />
+      <Route path="/article/:id" element={<ArticleDetail />} />
+      <Route path="/this-week" element={<ThisWeek />} />
     </Routes>
   );
 }
+

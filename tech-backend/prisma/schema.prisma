@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                Int            @id @default(autoincrement())
+  name              String
+  email             String         @unique
+  password          String
+  isSubscriber      Boolean        @default(false)
+  refreshToken      String?
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  savedArticles     SavedArticle[]
+}
+
+model Article {
+  id          Int            @id @default(autoincrement())
+  title       String
+  summary     String
+  detail      String
+  category    Category
+  sourceUrl   String?
+  imageUrl    String?
+  readTime    Int            @default(3)
+  publishedAt DateTime       @default(now())
+  weekStart   DateTime
+  createdAt   DateTime       @default(now())
+  savedBy     SavedArticle[]
+}
+
+model SavedArticle {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  articleId Int
+  savedAt   DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+  article   Article  @relation(fields: [articleId], references: [id])
+
+  @@unique([userId, articleId])
+}
+
+model NewsletterSubscriber {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  subscribedAt DateTime @default(now())
+}
+
+enum Category {
+  AI
+  HARDWARE
+  SOFTWARE
+  CRYPTO
+  STARTUPS
+  SCIENCE
+}

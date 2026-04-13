@@ -9,7 +9,7 @@ export default function Screen25eb33c79eda4a25853488316fadbff7() {
 <html className="dark" lang="en"><head>
 <meta charSet="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>TechPulse | This Week in Technology</title>
+<title>Decoded | This Week in Technology</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -75,7 +75,7 @@ export default function Screen25eb33c79eda4a25853488316fadbff7() {
 <div className="text-primary">
 <span className="material-symbols-outlined text-3xl">bolt</span>
 </div>
-<h1 className="text-2xl font-black tracking-tighter text-white uppercase">TechPulse</h1>
+<h1 className="text-2xl font-black tracking-tighter text-white uppercase">Decoded</h1>
 </div>
 <div className="hidden md:flex flex-1 max-w-md">
 <div className="relative w-full group">
@@ -216,7 +216,7 @@ export default function Screen25eb33c79eda4a25853488316fadbff7() {
 <div className="col-span-1 md:col-span-2">
 <div className="flex items-center gap-2 mb-6">
 <span className="material-symbols-outlined text-primary text-3xl">bolt</span>
-<h2 className="text-2xl font-black tracking-tighter text-white uppercase">TechPulse</h2>
+<h2 className="text-2xl font-black tracking-tighter text-white uppercase">Decoded</h2>
 </div>
 <p className="text-slate-400 max-w-sm mb-8 leading-relaxed">Defining the technological landscape since 2018. Curated insights for the builders, dreamers, and early adopters of the future.</p>
 <div className="flex gap-4">
@@ -251,7 +251,7 @@ export default function Screen25eb33c79eda4a25853488316fadbff7() {
 </div>
 </div>
 <div className="pt-12 mt-12 border-t border-white/5 text-center text-[10px] text-slate-500 uppercase tracking-widest">
-            © 2026 TechPulse Media Group. All Rights Reserved. Built for the next era.
+            © 2026 Decoded Media Group. All Rights Reserved. Built for the next era.
         </div>
 </div>
 </footer>
@@ -259,3 +259,4 @@ export default function Screen25eb33c79eda4a25853488316fadbff7() {
     </>
   );
 }
+

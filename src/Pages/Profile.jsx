@@ -9,7 +9,7 @@ export default function Screenc1f2ee2581924ba2b6b92d33ebcd9eba() {
 <html className="dark" lang="en"><head>
 <meta charSet="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>TechPulse | Marcus Thorne Profile</title>
+<title>Decoded | Marcus Thorne Profile</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -42,7 +42,7 @@ export default function Screenc1f2ee2581924ba2b6b92d33ebcd9eba() {
 <div className="flex items-center gap-10">
 <div className="flex items-center gap-3 text-primary">
 <span className="material-symbols-outlined text-3xl font-bold">bolt</span>
-<h2 className="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight tracking-tight">TechPulse</h2>
+<h2 className="text-slate-900 dark:text-slate-100 text-xl font-bold leading-tight tracking-tight">Decoded</h2>
 </div>
 <nav className="hidden md:flex items-center gap-8">
 <Link className="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-sm font-medium" to="/">Home</Link>
@@ -264,7 +264,7 @@ export default function Screenc1f2ee2581924ba2b6b92d33ebcd9eba() {
 <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
 <div className="flex items-center gap-3 opacity-50">
 <span className="material-symbols-outlined text-xl">bolt</span>
-<h2 className="font-bold text-lg">TechPulse</h2>
+<h2 className="font-bold text-lg">Decoded</h2>
 </div>
 <div className="flex gap-8 text-sm text-slate-500">
 <a className="hover:text-primary transition-colors" href="#">Privacy Policy</a>
@@ -272,10 +272,11 @@ export default function Screenc1f2ee2581924ba2b6b92d33ebcd9eba() {
 <a className="hover:text-primary transition-colors" href="#">Editorial Guidelines</a>
 <a className="hover:text-primary transition-colors" href="#">Contact</a>
 </div>
-<p className="text-xs text-slate-500">© 2024 TechPulse Media Group. All rights reserved.</p>
+<p className="text-xs text-slate-500">© 2024 Decoded Media Group. All rights reserved.</p>
 </div>
 </footer>
 </body></html>
     </>
   );
 }
+

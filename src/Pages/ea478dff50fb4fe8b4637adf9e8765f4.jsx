@@ -3,10 +3,10 @@ import React from 'react';
 export default function Screenea478dff50fb4fe8b4637adf9e8765f4() {
   return (
     <>
-      # TechPulse Product Requirements Document
+      # Decoded Product Requirements Document
 
 ## Brand Identity
-- **Name:** TechPulse
+- **Name:** Decoded
 - **Tagline:** "Your weekly dose of tech, summarized."
 - **Personality:** Editorial, intelligent, minimal, modern
 - **Style:** Dark editorial magazine (Bloomberg + Verge + linear.app)
@@ -50,3 +50,4 @@ export default function Screenea478dff50fb4fe8b4637adf9e8765f4() {
     </>
   );
 }
+

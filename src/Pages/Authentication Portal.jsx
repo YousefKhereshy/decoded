@@ -58,7 +58,7 @@ export default function Screenb7a9faf0fa774370978d4e79f19b0426() {
 </svg>
 </div>
 </div>
-<h1 className="text-slate-900 dark:text-slate-100 text-2xl font-bold tracking-tight">TechPulse</h1>
+<h1 className="text-slate-900 dark:text-slate-100 text-2xl font-bold tracking-tight">Decoded</h1>
 <p className="text-slate-500 dark:text-slate-400 text-sm mt-2 font-mono uppercase tracking-widest">Authentication Portal</p>
 </div>
 {/*  Login Card  */}
@@ -135,3 +135,4 @@ export default function Screenb7a9faf0fa774370978d4e79f19b0426() {
     </>
   );
 }
+
